@@ -51,7 +51,7 @@ header{
 /*header end*/
 /*banner start*/
 .banner{
-	background-image: url(../class_8_project_2_notary/images/notarize.jpg);
+	background-image: url(images/notarize.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
