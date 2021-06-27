@@ -54,8 +54,6 @@ header{
 	background-image: url(images/notarize.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
 	background-position: center;
 
 }
@@ -95,3 +93,98 @@ header{
 	outline: 0;
 }
 /*banner end*/
+/*sevice start*/
+.service{
+	padding: 30px 0;
+}
+.s_top{
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+.s_top h1{
+	font-size: 35px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.s_top p{
+	font-size: 18px;
+    color: red;
+}
+.works{
+	overflow: hidden;
+	border: 1px solid;
+}
+.w_single{
+	float: left;
+	width: 30%;
+	margin-right: 28px;
+	
+	padding: 60px 8px;
+}
+.w_single:last-child{
+	margin-right: 0;
+}
+.w_s_img{
+	width: 30%;
+	margin: 0 auto;
+}
+.w_s_img img{
+	width: 100%;
+}
+.w_s_text{}
+.w_s_text h2{
+	text-align: center;
+}
+/*sevice end*/
+
+/*video start*/
+.video{
+	
+	}
+.v_wrapper{
+	overflow: hidden;
+	border: 1px solid;
+	padding: 100px 30px;
+}
+.v_left{
+	float: left;
+	width: 45%;
+	padding: 0 10px;
+}
+.v_left h1{
+	font-family: sans-serif;
+	font-size: 35px;
+	color: ;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.v_left p{
+	font-family: sans-serif;
+	font-size: 20px;
+	color: ;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.v_left button{
+	width: 240px;
+	height: 30px;
+	background-color: #BF203E;
+	font-family: sans-serif;
+	font-size: 15px;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.v_right{
+	float: right;
+	width: 45%;
+}
+.v_right iframe{
+	padding: 0 10px;
+}
+/*video end*/
